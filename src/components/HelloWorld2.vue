@@ -8,7 +8,7 @@
           img(src="http://lorempixel.com/400/200/animals/")
           hr
           .ui.list
-            .item(v-for = "p in poet" v-bind:key = "p")
+            .item(v-for = "(p,idx) in poet" v-bind:key = "p + idx")
               h2 {{ parse(p) }}
       //.one.column.row
         .column.ui.segment
