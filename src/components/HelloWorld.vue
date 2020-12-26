@@ -1,8 +1,6 @@
 <template lang="jade">
   .hello
     .ui.container.grid
-      br
-      br
       #poet.two.column.doubling.row
         .three.wide.column
         .ten.wide.column.left.aligned.ui.black.segment
@@ -72,5 +70,6 @@ a {
 
 #poet {
   font-family: 'Microsoft JhengHei', 'DFKai-SB', 'PMingLiU', 'Heiti TC', 'LiHei Pro', 'BiauKai';
+  margin: 2em 0;
 }
 </style>
