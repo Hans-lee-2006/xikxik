@@ -1,10 +1,8 @@
 <template lang="jade">
   .hello
     .ui.container.grid
-      .one.column.row
-        .column
-          a.ui.huge.green.button(onclick = "location.reload()") 再來！
       #poet.two.column.doubling.row
+        .five.wide.column
         .six.wide.column.ui.teal.segment
           h1 拾詩氏
           img(src="http://lorempixel.com/400/200/animals/")
