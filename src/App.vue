@@ -1,6 +1,18 @@
 <template lang="jade">
   #app
-    .ui.labeled.icon.menu
+    .ui.menu.thin-only
+      router-link.item(to = "/")
+        i.globe.icon
+      router-link.item(to = "/poet")
+        i.file.icon
+      router-link.item(to = "/custom")
+        i.pencil.alternate.icon
+      .right.menu
+        a.item(href="https://github.com/bestian/xikxik/" target="_blank")
+          i.github.icon
+        .item
+          iframe(src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fxikxik.bestian.tw&layout=button_count&size=small&appId=485195848253155&width=70&height=20" width="70" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media")
+    .ui.labeled.icon.menu.fat-only
       router-link.item(to = "/")
         i.globe.icon
         | 新聞
@@ -257,4 +269,17 @@ export default {
 a, button {
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .fat-only {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .thin-only {
+    display: none !important;
+  }
+}
+
 </style>
