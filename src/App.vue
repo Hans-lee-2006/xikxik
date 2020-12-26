@@ -2,8 +2,11 @@
   #app
     .ui.labeled.icon.menu
       router-link.item(to = "/")
-        i.home.icon
-        | 首頁
+        i.globe.icon
+        | 新聞
+      router-link.item(to = "/poet")
+        i.file.icon
+        | 詩
       router-link.item(to = "/custom")
         i.pencil.alternate.icon
         | 自訂元素

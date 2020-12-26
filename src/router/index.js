@@ -5,6 +5,7 @@ import Custom from '@/components/Custom'
 import EditPoet from '@/components/EditPoet'
 import EditNews from '@/components/EditNews'
 import Zoo from '@/components/Zoo'
+import HelloWorld2 from '@/components/HelloWorld2'
 
 Vue.use(Router)
 
@@ -14,6 +15,11 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/poet',
+      name: 'HelloWorld2',
+      component: HelloWorld2
     },
     {
       path: '/custom',
