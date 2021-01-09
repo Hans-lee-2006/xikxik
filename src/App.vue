@@ -8,10 +8,10 @@
       router-link.item(to = "/custom")
         i.pencil.alternate.icon
       .right.menu
-        a.item(href="https://github.com/Hans-lee-2006/xikxik/" target="_blank")
+        a.item(href="https://github.com/Hans-lee-2006/xikxik" target="_blank")
           i.github.icon
         .item
-          iframe(src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhans-lee-2006.github.io%2Fxikxik%2F&layout=button_count&size=small&appId=485195848253155&width=70&height=20" width="70" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media")
+          iframe(src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhans-lee-2006.github.io%2Fxikxik&layout=button_count&size=small&appId=485195848253155&width=70&height=20" width="70" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media")
     .ui.labeled.icon.menu.fat-only
       router-link.item(to = "/")
         i.globe.icon
@@ -32,11 +32,11 @@
         i.universal.access.icon
         | 隨機圖
       .right.menu
-        a.item(href="https://github.com/Hans-lee-2006/xikxik/" target="_blank")
+        a.item(href="https://github.com/Hans-lee-2006/xikxik" target="_blank")
           i.github.icon
           | 專案網址
         .item
-          iframe(src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhans-lee-2006.github.io%2Fxikxik%2F&layout=button_count&size=small&appId=485195848253155&width=70&height=20" width="70" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media")
+          iframe(src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhans-lee-2006.github.io%2Fxikxik&layout=button_count&size=small&appId=485195848253155&width=70&height=20" width="70" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media")
     router-view(:xikxik = "$localStorage.xikxik", :newsList = "$localStorage.newsList", :poet = "$localStorage.poet", @add="add", @del = "del", @reset = "reset", @addNews="addNews", @delNews = "delNews", @resetNews = "resetNews", @addPoet="addPoet", @delPoet = "delPoet", @resetPoet = "resetPoet")
 </template>
 
