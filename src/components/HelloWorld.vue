@@ -18,7 +18,7 @@
           a.ui.huge.green.button(onclick = "location.reload()") 再來！
       .one.column.row
         .column
-          .fb-comments(data-href="http://xikxik.bestian.tw" data-width="" data-numposts="5")
+          .fb-comments(data-href="https://hans-lee-2006.github.io/xikxik/" data-width="" data-numposts="5")
 </template>
 
 <script>
@@ -70,6 +70,5 @@ a {
 
 #poet {
   font-family: 'Microsoft JhengHei', 'DFKai-SB', 'PMingLiU', 'Heiti TC', 'LiHei Pro', 'BiauKai';
-  margin: 2em 0;
 }
 </style>
