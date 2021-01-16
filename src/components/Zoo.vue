@@ -47,7 +47,7 @@ export default {
       for (var i = 1; i <= n; i++) {
         ans.push(i)
       }
-      ans = ans.sort(function (a, b) { return Math.random() - 0.5 })
+      ans = ans.sort(function () { return Math.random() - 0.5 })
       return ans
     },
     reset: function () {

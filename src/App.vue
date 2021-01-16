@@ -1,4 +1,4 @@
-<template lang="jade">
+<template lang="pug">
   #app
     .ui.menu.thin-only
       router-link.item(to = "/")
